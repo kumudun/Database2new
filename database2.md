@@ -1,5 +1,5 @@
 # Week 3
-## Exercise 3
+## Exercise 3 - Multiple table queries
 ### Question 1
 SELECT country.name AS "country name", airport.name AS "airport name"  
 FROM country JOIN airport ON country.iso_country = airport.iso_country  
